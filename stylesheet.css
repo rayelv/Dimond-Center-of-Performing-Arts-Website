@@ -366,14 +366,13 @@ th {
 }
 #map-border{
     border-left: 6px solid #84150b ;
-    border-right: 6px solid #84150b ;
 }
 
 /* media queries */
 @media  screen and (max-width:600px) {
     .banner h2{
         font-size: 32px;
-        font-weight: bold;
+        font-weight: bolder;
     }
     .menu{
         margin: 0;
@@ -382,4 +381,15 @@ th {
     .styled-quote {
         font-size: 22px;
     }
+    .location{
+        flex-direction: column;
+        padding: 0px;
+    }
+    .main-site{
+        padding: 0px;
+    }
+    .site-logo{
+        font-size: 15px;}
+    .navbar ul li a {
+        font-size: 15px;}
 }
