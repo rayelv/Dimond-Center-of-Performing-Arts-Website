@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="site-header">
+        <a href="index.html" class="site-logo">Dimond Center of Performing Arts</a>
+        <nav class="navbar">
+            <ul>
+                <li> <a href="contact.html">Contact</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="location.html">Location</a></li>
+                <li><a href="menu.html">Menu</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="contact section p">
+        <h3 class="section-title">Contact Us</h3>
+        <p>We always welcome feedback and especially new artist! If you have any questions or
+            concerns, please fill out our form and we will get in contact as 
+            soon as possible.
+        </p>
+    </section>
+        <form action="/submit" method="POST">
+            <div class="form">
+                <fieldset>
+                    <legend>Inquiries</legend>
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" required placeholder="Enter your name">
+                    <br><br>
+                    <label for="user-email">Email:</label><br>
+                    <input type="email" id="user-email" name="user-email" required placeholder="Enter your email">
+                    <br><br>
+                    <label for="comment">Comments:</label><br>
+                    <textarea id="comment" name="comment" rows="10" placeholder="Enter your inquiries here."></textarea>
+                    <br><br>
+                </fieldset>
+                <fieldset>
+                    <legend>Subscribe to our Newsletter:</legend>
+                    <label for="yes">Yes</label>
+                    <input type="radio" id="yes" name="news" value="yes">
+                    <label for="no">No</label>
+                    <input type="radio" id="no" name="no" value="no">
+                    <br><br>
+                
+                </fieldset>
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </section>
+    <footer>
+        <p> &copy;2025 Dimond Center of Performing Arts</p>
+    </footer>
+</body>
+</html>
