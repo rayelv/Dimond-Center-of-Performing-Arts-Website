@@ -26,6 +26,7 @@ This project is a vibrant HTML-based website for the Dimond Center of Performing
 - 🍕 Menu Section: Organized into three tasty categories: Appetizers, Entrees, and Desserts, displayed in a clean table layout.
 
 - 🏁 Footer: Contains a copyright notice.
+- 📱Media Query setup for smaller devices to ensure design responsiveness.
 ## 🛠️ Setup Instructions
 
 1. Clone this repository:

@@ -317,7 +317,6 @@ input, textarea {
 }
 table {
     width: 100%;
-    margin: 0 auto;
     border-collapse: collapse;
 }
 th,td {
@@ -368,4 +367,19 @@ th {
 #map-border{
     border-left: 6px solid #84150b ;
     border-right: 6px solid #84150b ;
+}
+
+/* media queries */
+@media  screen and (max-width:600px) {
+    .banner h2{
+        font-size: 32px;
+        font-weight: bold;
+    }
+    .menu{
+        margin: 0;
+        padding: 5px;
+    }
+    .styled-quote {
+        font-size: 22px;
+    }
 }
